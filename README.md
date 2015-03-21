@@ -4,7 +4,7 @@ Describes the process used to transform the source data located at:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 into the data set "results.txt" submitted for this project.
 
-A description of the variables is included in the Codebook.md file.
+A description of the variables in the "results.txt" data set is included in the Codebook.md file on this repo.
 
 ###Instruction List
 The source data is transformed using the script run_analysis.R.
@@ -33,7 +33,7 @@ Select only the variables that measure mean or standard deviation by selecting a
 - std(): Standard deviation
 - meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-In this script the variables in the source data which were calculated by averaging the signals in a signal window sample as noted in the "features_info.txt" file were not included
+As noted above mean frequency variables were included, but the variables which were calculated by averaging the signals in a signal window sample as described in the "features_info.txt" file (and labeled "Mean") were not included
 
 The resulting file containing only the data for these measures is X_mstd
 
