@@ -24,9 +24,9 @@ After the script is loaded into R it can be run and the results loaded into "res
 The script performs the following actions to transform the source data into the resulting data set:
 - Merge training and test data sets, such that the resulting files contain one row for each observation across the training and test data sets.
 - Select only the variables that measure mean or standard deviation by selecting all variables including "mean" or "std" which includes the three categories identified in the source data: 
--- mean(): Mean value
--- std(): Standard deviation
--- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+    - mean(): Mean value
+    - std(): Standard deviation
+    - meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 - As noted above, mean frequency variables were included, but the variables which were calculated by averaging the signals in a signal window sample as described in the "features_info.txt" file (and labeled "Mean") were not included
 - Name columns in merged data sets
 - Add descriptive activity names
