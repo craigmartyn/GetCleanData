@@ -7,12 +7,12 @@ File contains the following 81 columns:
 , SITTING
 , STANDING, LAYING
 - Subject: identifier for each subject. Integer variable (1-30 for the 30 study participants)
-- One column for each of the mean and standard deviation measurements as described below (79 columns)
+- One column for each of the mean and standard deviation measurements as described below (79 columns). These columns contain numeric data consisting of means of normalized data bounded within [-1,1].
 
 File contains 180 rows with each row corresponding to one combination of Activity and Subject.
 
 The 79 measurement columns are labeled using the names in the features.txt file provided with the source data.
-Data provided is the mean across all observations of each variable for each combination of Subject and Activity in the source data.
+Data provided is the mean of each variable for each combination of Subject and Activity in the source data.
 Only variables that measure mean or standard deviation in the base data have been included. This was interpreted to include mean frequency measurements, so the following categories identified in the source data are included:
 - mean(): Mean value
 - std(): Standard deviation
